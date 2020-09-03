@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Mad Level 1 Task 2</string>
     <string name="title">Conjunction (AND)</string>
+    <string name="submit">Submit</string>
+    <string name="table_header_A">A</string>
+    <string name="table_header_B">B</string>
+    <string name="table_header_conjunction">A ^ B</string>
+    <string name="option_true">T</string>
+    <string name="Option_false">F</string>
     <string name="correct">Correct</string>
     <string name="incorrect">Incorrect</string>
 </resources>

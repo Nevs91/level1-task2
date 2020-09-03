@@ -7,12 +7,205 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="16dp"
+        android:text="@string/title"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tblTop10List"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <TableLayout
+        android:id="@+id/tblTop10List"
+        android:layout_width="308dp"
+        android:layout_height="446dp"
+        android:layout_centerInParent="true"
+        android:measureWithLargestChild="true"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TableRow
+            android:id="@+id/tbHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvA"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/table_header_A"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvB"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/table_header_B"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAND"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="@string/table_header_conjunction"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvRow1Option1"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/option_true"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvRow1Option2"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/option_true"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etAnswer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="43dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvRow2Option1"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/option_true"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvRow2Option2"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/Option_false"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etAnswer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="43dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvRow3Option1"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/option_true"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvRow3Option2"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/Option_false"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etAnswer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="43dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvRow4Option1"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:text="@string/Option_false"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvRow4Option2"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/option_true"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/etAnswer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="43dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="121dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
