@@ -97,6 +97,7 @@
                 android:inputType="text"
                 android:maxLength="1"
                 android:digits="tfTF"
+                android:textAlignment="center"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
@@ -131,6 +132,7 @@
                 android:inputType="text"
                 android:maxLength="1"
                 android:digits="tfTF"
+                android:textAlignment="center"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
@@ -165,6 +167,7 @@
                 android:inputType="text"
                 android:maxLength="1"
                 android:digits="tfTF"
+                android:textAlignment="center"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
@@ -199,6 +202,7 @@
                 android:inputType="text"
                 android:maxLength="1"
                 android:digits="tfTF"
+                android:textAlignment="center"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
