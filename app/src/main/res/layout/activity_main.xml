@@ -95,6 +95,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:maxLength="1"
+                android:digits="tfTF"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
@@ -118,7 +120,7 @@
                 android:id="@+id/tvRow2Option2"
                 android:layout_height="wrap_content"
                 android:layout_column="1"
-                android:text="@string/Option_false"
+                android:text="@string/option_false"
                 android:textAlignment="center"
                 android:textSize="24sp" />
 
@@ -127,6 +129,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:maxLength="1"
+                android:digits="tfTF"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
@@ -150,7 +154,7 @@
                 android:id="@+id/tvRow3Option2"
                 android:layout_height="wrap_content"
                 android:layout_column="1"
-                android:text="@string/Option_false"
+                android:text="@string/option_false"
                 android:textAlignment="center"
                 android:textSize="24sp" />
 
@@ -159,6 +163,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:maxLength="1"
+                android:digits="tfTF"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
@@ -174,7 +180,7 @@
                 android:id="@+id/tvRow4Option1"
                 android:layout_height="wrap_content"
                 android:layout_column="0"
-                android:text="@string/Option_false"
+                android:text="@string/option_false"
                 android:textAlignment="center"
                 android:textSize="24sp" />
 
@@ -191,6 +197,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:inputType="text"
+                android:maxLength="1"
+                android:digits="tfTF"
                 tools:layout_editor_absoluteX="25dp"
                 tools:layout_editor_absoluteY="43dp" />
         </TableRow>
