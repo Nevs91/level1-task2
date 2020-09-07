@@ -40,26 +40,22 @@ class MainActivity : AppCompatActivity() {
             showMessageNotAllFieldsFilled()
         } else {
             // Check if the first answer is correct
-            if (binding.etAnswer1.text.toString()
-                    .equals(getString(R.string.option_true), ignoreCase = true)) {
+            if (binding.etAnswer1.text.toString().equals(getString(R.string.option_true), ignoreCase = true)) {
                 correctAnswersCount++
             }
 
             // Check if the second answer is correct
-            if (binding.etAnswer2.text.toString()
-                    .equals(getString(R.string.option_false), ignoreCase = true)) {
+            if (binding.etAnswer2.text.toString().equals(getString(R.string.option_false), ignoreCase = true)) {
                 correctAnswersCount++
             }
 
             // Check if the third answer is correct
-            if (binding.etAnswer3.text.toString()
-                    .equals(getString(R.string.option_false), ignoreCase = true)) {
+            if (binding.etAnswer3.text.toString().equals(getString(R.string.option_false), ignoreCase = true)) {
                 correctAnswersCount++
             }
 
             // Check if the fourth answer is correct
-            if (binding.etAnswer4.text.toString()
-                    .equals(getString(R.string.option_false), ignoreCase = true)) {
+            if (binding.etAnswer4.text.toString().equals(getString(R.string.option_false), ignoreCase = true)) {
                 correctAnswersCount++
             }
 
